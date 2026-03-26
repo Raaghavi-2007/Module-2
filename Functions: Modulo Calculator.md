@@ -13,10 +13,11 @@ To write a Python program that defines a function which accepts two values and r
 ## 🧾 Program
 ```
 def result(a, b):
-    return a % b
+    mod = a % b
+    print("modulo is",mod)
 a = int(input())
 b = int(input())
-print(result(a, b))
+result(a, b)
 ```
 
 ## Output
